@@ -1,0 +1,136 @@
+.top-rated-container {
+    background-color: rgb(250, 246, 246);
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    margin-top: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .top-rated-container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .heading {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .desc {
+    font-family: 'Roboto';
+    font-size: 20px;
+  }
+  
+  .top-rated-container1 {
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .top-rated-container1 {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+  
+  .find-books-button {
+    background-color: rgb(43, 144, 228);
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto';
+    height: 36px;
+    width: 130px;
+    padding: 10px;
+    padding-left: 30px;
+    border-width: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .top-rated-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-rated-heading {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .top-rated-link {
+    text-decoration: none;
+  }
+  
+  .server-failure-container {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .server-failure-image {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .server-failure-link {
+    text-decoration: none;
+  }
+  
+  .server-failure-try-again-button {
+    background-color: rgb(43, 144, 228);
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto';
+    height: 30px;
+    width: 100px;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #desktop-find-books {
+      display: flex;
+    }
+  
+    #mobile-find-books {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #desktop-find-books {
+      display: none;
+    }
+  
+    #mobile-find-books {
+      display: flex;
+    }
+  }
+  
+  .loader-container {
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .main-slider-container {
+    margin-top: 20px;
+    background-color: rgb(122, 244, 244);
+    color: black;
+    padding: 30px;
+  }
+  

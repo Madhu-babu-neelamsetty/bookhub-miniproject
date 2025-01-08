@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-image-container {
+    height: 100vh;
+    width: 700px;
+  }
+
+  .mobile-image-container {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  @media screen and (min-width: 768px) {
+    .desktop-image-container {
+      display: flex;
+    }
+    .mobile-image-container {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .desktop-image-container {
+      display: none;
+    }
+    .mobile-image-container {
+      display: flex;
+    }
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    width: 80%;
+    padding: 25px;
+    padding-bottom: 20px;
+  }
+
+@media screen and (max-width: 768px){
+  .form-container{
+    border: 0;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+  .logo-container {
+    text-align: center;
+  }
+
+  .image {
+    height: 60px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .lable-style {
+    color: black;
+    align-self: flex-start;
+    padding-left: 50px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .input-style {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .login-button {
+    background-color: rgb(43, 144, 228);
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    height: 60px;
+    width: 81%;
+    border-width: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .error-msg {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 16px;
+    align-self: flex-start;
+    padding-left: 50px;
+  }

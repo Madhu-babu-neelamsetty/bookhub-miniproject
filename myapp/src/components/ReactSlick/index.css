@@ -1,0 +1,51 @@
+.slider-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slider-container {
+      font-size: 10px;
+      margin: 0;
+      padding-left: 10px;
+      text-align: center;
+    }
+  }
+  
+  .slider-heading {
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slider-heading {
+      font-size: 10px;
+      padding-right: 0;
+    }
+  }
+  
+  .slider-cover-image {
+    height: 250px;
+    width: 250px;
+    margin-left: 8px;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slider-cover-image {
+      height: 100px;
+      width: 100px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+  
+  .book-item-link {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
